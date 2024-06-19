@@ -11,6 +11,7 @@
 		0441383E2501A02500732969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0441383D2501A02500732969 /* Assets.xcassets */; };
 		0441384C2501A02500732969 /* appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441384B2501A02500732969 /* appTests.swift */; };
 		044138572501A02500732969 /* appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044138562501A02500732969 /* appUITests.swift */; };
+		4660DDB22C233A7F00EF5723 /* RtspRestreamSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660DDB12C233A7F00EF5723 /* RtspRestreamSwiftUIView.swift */; };
 		659B73BF320E14A5662BBE0E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 659B7C7C942D059E7C4F1424 /* .gitignore */; };
 		EBA400102ABA6A1600249638 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4000F2ABA6A1600249638 /* MainSwiftUIView.swift */; };
 		EBA400122ABA7AED00249638 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA400112ABA7AED00249638 /* ToastView.swift */; };
@@ -62,6 +63,7 @@
 		044138522501A02500732969 /* appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044138562501A02500732969 /* appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appUITests.swift; sourceTree = "<group>"; };
 		044138582501A02500732969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4660DDB12C233A7F00EF5723 /* RtspRestreamSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtspRestreamSwiftUIView.swift; sourceTree = "<group>"; };
 		659B7C7C942D059E7C4F1424 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		EB07EC4B2B0D51FD0001309D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EB94C7272BDC2286002CCC0B /* RootEncoder */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RootEncoder; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				EBA4FFD62ABA652100249638 /* RtspSwiftUIView.swift */,
 				EBA4000F2ABA6A1600249638 /* MainSwiftUIView.swift */,
 				EBC8FD2F2C09214600345CFC /* ScreenSwiftUIView.swift */,
+				4660DDB12C233A7F00EF5723 /* RtspRestreamSwiftUIView.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4660DDB22C233A7F00EF5723 /* RtspRestreamSwiftUIView.swift in Sources */,
 				EBC8FD302C09214600345CFC /* ScreenSwiftUIView.swift in Sources */,
 				044138352501A02300732969 /* StreamerApp.swift in Sources */,
 				EBA400102ABA6A1600249638 /* MainSwiftUIView.swift in Sources */,
@@ -484,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3J6XRHHTPA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = app/Info.plist;
@@ -498,6 +503,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.pedro.streamers3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -511,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3J6XRHHTPA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = app/Info.plist;
@@ -525,6 +532,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.pedro.streamers3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

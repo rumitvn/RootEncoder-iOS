@@ -22,6 +22,9 @@ struct MainSwiftUIView: View {
                 NavigationLink(destination: ScreenSwiftUIView()) {
                     Text("Screen")
                 }
+                NavigationLink(destination: RtspRestreamSwiftUIView()) {
+                    Text("RTSP restream")
+                }
             }
         }.navigationViewStyle(StackNavigationViewStyle())
     }
