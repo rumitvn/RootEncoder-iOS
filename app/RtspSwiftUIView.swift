@@ -73,7 +73,7 @@ struct RtspSwiftUIView: View, ConnectChecker {
     }
     
     
-    @State private var endpoint = "rtsp://192.168.0.160:8554/live/pedro"
+    @State private var endpoint = "rtsp://192.168.1.3:8554/live/rum"
     @State private var bStreamText = "Start stream"
     @State private var bRecordText = "Start record"
     @State private var isShowingToast = false
